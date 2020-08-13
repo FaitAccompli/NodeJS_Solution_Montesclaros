@@ -1,5 +1,8 @@
 [howto]
 run node-gyp rebuild and then node ./addon.js 
+[test]
+run npm run test
+
 
 The unit tests done using jest.
 1) For the enumeration of the attached displays, the value should not be equal to 0 to pass. This means that a non-zero positive value means attached displays were found.
