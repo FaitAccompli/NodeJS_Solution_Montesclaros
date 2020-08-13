@@ -1,10 +1,9 @@
 #include <nan.h>
 #include <windows.h>
-#include <iostream>
+
 
 #include "wake.h"
 
-using namespace std; 
 
 using Nan::AsyncQueueWorker; 
 using Nan::SetMethod; 
