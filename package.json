@@ -1,0 +1,19 @@
+{
+  "name": "display_manager",
+  "version": "1.0.0",
+  "description": "An application that manages the device displays and device state",
+  "main": "addon.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "gypfile": true,
+  "author": "Ray Mart Montesclaros",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.14.1",
+    "node-gyp": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
